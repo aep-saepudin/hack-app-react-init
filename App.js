@@ -6,8 +6,10 @@ import { Col, Row, Grid } from 'react-native-easy-grid'
 import Profile from './src/screen/Profile'
 import SingleItem from './src/components/SingleItem'
 import ListContainer from './src/components/ListContainer'
+import PointIcon from './src/components/Icon'
+import ListPlan from './src/screen/ListPlan'
 
-export default ListContainer
+export default ListPlan
 
 export  class LayoutExample extends Component {
   render() {
