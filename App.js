@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { StyleSheet } from "react-native";
 import { Container, Header, Text } from 'native-base';
-import { Col, Row, Grid } from 'react-native-easy-grid';
+import { Col, Row, Grid } from 'react-native-easy-grid'
 
 import Profile from './src/screen/Profile'
 import SingleItem from './src/components/SingleItem'
+import ListContainer from './src/components/ListContainer'
 
-export default SingleItem
+export default ListContainer
 
 export  class LayoutExample extends Component {
   render() {
